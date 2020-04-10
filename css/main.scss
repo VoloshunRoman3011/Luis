@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Asap';
+  src: url('../fonts/Asap-Medium.eot');
+  src: url('../fonts/Asap-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Asap-Medium.woff2') format('woff2'),
+  url('../fonts/Asap-Medium.woff') format('woff'),
+  url('../fonts/Asap-Medium.ttf') format('truetype'),
+  url('../fonts/Asap-Medium.svg#Asap-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Asap';
+  src: url('../fonts/Asap-Regular.eot');
+  src: url('../fonts/Asap-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Asap-Regular.woff2') format('woff2'),
+  url('../fonts/Asap-Regular.woff') format('woff'),
+  url('../fonts/Asap-Regular.ttf') format('truetype'),
+  url('../fonts/Asap-Regular.svg#Asap-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Asap';
+  src: url('../fonts/Asap-Bold.eot');
+  src: url('../fonts/Asap-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Asap-Bold.woff2') format('woff2'),
+  url('../fonts/Asap-Bold.woff') format('woff'),
+  url('../fonts/Asap-Bold.ttf') format('truetype'),
+  url('../fonts/Asap-Bold.svg#Asap-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Asap';
+  src: url('../fonts/Asap-Italic.eot');
+  src: url('../fonts/Asap-Italic.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Asap-Italic.woff2') format('woff2'),
+  url('../fonts/Asap-Italic.woff') format('woff'),
+  url('../fonts/Asap-Italic.ttf') format('truetype'),
+  url('../fonts/Asap-Italic.svg#Asap-Italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+
+
+
+
+
+
+@import "fonts";
+@import "bootstrap.min.css";
+@import "bootstrap-theme.min.css";
+
+//fonts
+@mixin fon-Asap_Medium{
+  font-family: 'Asap';
+  //font-weight: 500;
+  //font-style: normal;
+}
+@mixin fon-Asap_Regular{
+  font-family: 'Asap';
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1.a{
+  font-family: 'Asap';
+  font-size: 90px;
+}
+h1.b{
+  @include fon-Asap_Regular;
+}
+//colors
+$c-fon-a_h_p: #4d4d4d;
+$c-bor-a: #878787;
+$c-fon-p: #909090;
+$c-fon-h2: #717171;
+$c-fon-h3: #6f6f6f;
+$c-fon-h3_b: #767676;
+$c-bg: #f6f6f6;
+$c-fon-h4: #f0f0f0;
+$c-fon-h4_b: #c1c1c1;
+$c-fon-h5: #373737;
+$c-black: #212121;
+$c-white: #fff;
+$c-fon-p_p: #7a7a7a;
+$c-bg-hov: #0084b4;

@@ -1,60 +1,80 @@
 @import url(bootstrap.min.css);
 @import url(bootstrap-theme.min.css);
-@font-face {
-  font-family: 'Asap';
-  src: url("../fonts/Asap-Medium.eot");
-  src: url("../fonts/Asap-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap-Medium.woff2") format("woff2"), url("../fonts/Asap-Medium.woff") format("woff"), url("../fonts/Asap-Medium.ttf") format("truetype"), url("../fonts/Asap-Medium.svg#Asap-Medium") format("svg");
-  font-weight: 500;
-  font-style: normal; }
-@font-face {
-  font-family: 'Asap';
-  src: url("../fonts/Asap-Regular.eot");
-  src: url("../fonts/Asap-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap-Regular.woff2") format("woff2"), url("../fonts/Asap-Regular.woff") format("woff"), url("../fonts/Asap-Regular.ttf") format("truetype"), url("../fonts/Asap-Regular.svg#Asap-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'Asap';
-  src: url("../fonts/Asap-Bold.eot");
-  src: url("../fonts/Asap-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap-Bold.woff2") format("woff2"), url("../fonts/Asap-Bold.woff") format("woff"), url("../fonts/Asap-Bold.ttf") format("truetype"), url("../fonts/Asap-Bold.svg#Asap-Bold") format("svg");
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: 'Asap';
-  src: url("../fonts/Asap-Italic.eot");
-  src: url("../fonts/Asap-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap-Italic.woff2") format("woff2"), url("../fonts/Asap-Italic.woff") format("woff"), url("../fonts/Asap-Italic.ttf") format("truetype"), url("../fonts/Asap-Italic.svg#Asap-Italic") format("svg");
-  font-weight: normal;
-  font-style: italic; }
-@font-face {
-  font-family: 'Asap';
-  src: url("../fonts/Asap-Medium.eot");
-  src: url("../fonts/Asap-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap-Medium.woff2") format("woff2"), url("../fonts/Asap-Medium.woff") format("woff"), url("../fonts/Asap-Medium.ttf") format("truetype"), url("../fonts/Asap-Medium.svg#Asap-Medium") format("svg");
-  font-weight: 500;
-  font-style: normal; }
-@font-face {
-  font-family: 'Asap';
-  src: url("../fonts/Asap-Regular.eot");
-  src: url("../fonts/Asap-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap-Regular.woff2") format("woff2"), url("../fonts/Asap-Regular.woff") format("woff"), url("../fonts/Asap-Regular.ttf") format("truetype"), url("../fonts/Asap-Regular.svg#Asap-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-@font-face {
-  font-family: 'Asap';
-  src: url("../fonts/Asap-Bold.eot");
-  src: url("../fonts/Asap-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap-Bold.woff2") format("woff2"), url("../fonts/Asap-Bold.woff") format("woff"), url("../fonts/Asap-Bold.ttf") format("truetype"), url("../fonts/Asap-Bold.svg#Asap-Bold") format("svg");
-  font-weight: bold;
-  font-style: normal; }
-@font-face {
-  font-family: 'Asap';
-  src: url("../fonts/Asap-Italic.eot");
-  src: url("../fonts/Asap-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Asap-Italic.woff2") format("woff2"), url("../fonts/Asap-Italic.woff") format("woff"), url("../fonts/Asap-Italic.ttf") format("truetype"), url("../fonts/Asap-Italic.svg#Asap-Italic") format("svg");
-  font-weight: normal;
-  font-style: italic; }
-h1.a {
-  font-family: 'Asap';
-  font-size: 90px; }
+@import url("https://fonts.googleapis.com/css?family=Asap:400,400i,500,500i,600,600i,700,700i&display=swap");
+h1, h2, h3, h4, h5, h6, p, a, span {
+  font-family: "Asap", sans-serif; }
 
-h1.b {
-  font-family: 'Asap';
-  font-weight: normal;
-  font-style: normal; }
+.pad, section {
+  padding: 110px 0 120px; }
+
+.style-text, section p, section a {
+  font-size: 16px;
+  color: #4d4d4d; }
+
+.a-hover, section a:hover {
+  text-decoration: none;
+  color: #4d4d4d; }
+
+section h2 {
+  font-size: 46px;
+  color: #717171;
+  font-weight: bold;
+  letter-spacing: 7px; }
+  section h2:before {
+    content: "";
+    display: block;
+    height: 4px;
+    width: 60px;
+    background-color: #7a7a7a;
+    margin-bottom: 19px; }
+    @media screen and (max-width: 375px) {
+      section h2:before {
+        width: 100%; } }
+  @media screen and (max-width: 375px) {
+    section h2 {
+      text-align: center; } }
+@media screen and (max-width: 768px) {
+  section p {
+    text-align: justify; } }
+section a {
+  border: 1px solid #4d4d4d;
+  padding: 19px 47px;
+  margin-top: 40px;
+  display: inline-block; }
+  @media screen and (max-width: 992px) {
+    section a {
+      margin: 40px auto 40px;
+      text-align: center;
+      display: block;
+      width: 245px; } }
+section img {
+  width: 100%; }
+
+article {
+  background-color: #f6f6f6;
+  padding: 100px 0 24px; }
+  article h3 {
+    font-size: 46px;
+    color: #6f6f6f;
+    font-weight: bold;
+    letter-spacing: 9px;
+    text-align: center;
+    margin-bottom: 62px; }
+    article h3:before {
+      content: "";
+      display: block;
+      height: 4px;
+      width: 60px;
+      margin: 0 auto 19px;
+      background-color: #767676; }
+  article .services {
+    text-align: center;
+    margin-bottom: 88px; }
+    article .services p {
+      font-size: 24px;
+      line-height: 24px;
+      color: #4d4d4d;
+      font-weight: bold;
+      margin: 12px 0 0; }
 
 /*# sourceMappingURL=main.css.map */

@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, p, a, span {
   font-size: 16px;
   color: #4d4d4d; }
 
-.a-hover, section a:hover {
+.a-hover, section a:hover, article .portfolio .a:hover {
   text-decoration: none;
   color: #4d4d4d; }
 
@@ -27,9 +27,9 @@ section h2 {
     width: 60px;
     background-color: #7a7a7a;
     margin-bottom: 19px; }
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 992px) {
       section h2:before {
-        width: 100%; } }
+        margin: 0 auto 19px; } }
   @media screen and (max-width: 375px) {
     section h2 {
       text-align: center; } }
@@ -51,8 +51,9 @@ section img {
   width: 100%; }
 
 article {
-  background-color: #f6f6f6;
   padding: 100px 0 24px; }
+  article:nth-child(2n) {
+    background-color: #f6f6f6; }
   article h3 {
     font-size: 46px;
     color: #6f6f6f;
@@ -67,6 +68,9 @@ article {
       width: 60px;
       margin: 0 auto 19px;
       background-color: #767676; }
+    @media screen and (max-width: 375px) {
+      article h3 {
+        font-size: 42px; } }
   article .services {
     text-align: center;
     margin-bottom: 88px; }
@@ -76,5 +80,40 @@ article {
       color: #4d4d4d;
       font-weight: bold;
       margin: 12px 0 0; }
+    article .services img {
+      height: 82px; }
+  @media screen and (max-width: 768px) {
+    article .skills {
+      padding: 0 15px; } }
+  article .skills img {
+    width: 100%;
+    margin-bottom: 101px; }
+  article .portfolio {
+    text-align: center; }
+    article .portfolio img {
+      transition: 0.3s;
+      margin-bottom: 30px;
+      height: 318px;
+      width: 100%; }
+      article .portfolio img:hover {
+        -webkit-box-shadow: 0 0 18px 0 #4d4d4d;
+        box-shadow: 0 0 18px 0 #4d4d4d;
+        transition: 0.3s; }
+      @media screen and (max-width: 768px) {
+        article .portfolio img {
+          max-width: 368px; } }
+    article .portfolio .a {
+      font-size: 16px;
+      color: #4d4d4d;
+      padding: 20px 48px;
+      background-color: #fff;
+      display: inline-block;
+      margin-bottom: 116px;
+      font-weight: bold;
+      transition: 0.3s; }
+      article .portfolio .a:hover {
+        -webkit-box-shadow: 0 8px 18px -13px #4d4d4d;
+        box-shadow: 0 8px 18px -13px #4d4d4d;
+        transition: 0.3s; }
 
 /*# sourceMappingURL=main.css.map */

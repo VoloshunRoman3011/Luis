@@ -59,8 +59,8 @@ section{
       width: 60px;
       background-color: $c-fon-p_p;
       margin-bottom: 19px;
-      @include max-screen(375px){
-        width: 100%;
+      @include max-screen(992px){
+        margin: 0 auto 19px;
       }
     }
     @include max-screen(375px){
@@ -94,8 +94,10 @@ section{
   }
 }
 article{
-  background-color: $c-bg;
   padding: 100px 0 24px;
+  &:nth-child(2n){
+    background-color: $c-bg;
+  }
   h3{
     font-size: 46px;
     color: $c-fon-h3;
@@ -111,6 +113,9 @@ article{
       margin: 0 auto 19px;
       background-color: $c-fon-h3_b;
     }
+    @include max-screen(375px){
+      font-size: 42px;
+    }
   }
   .services{
     text-align: center;
@@ -122,6 +127,50 @@ article{
       font-weight: bold;
       margin: 12px 0 0;
     }
-
+    img{
+      height: 82px;
+    }
+  }
+  .skills{
+    @include max-screen(768px){
+      padding: 0 15px;
+    }
+    img{
+      width: 100%;
+      margin-bottom: 101px;
+    }
+  }
+  .portfolio{
+    text-align: center;
+    img{
+      transition: 0.3s;
+      margin-bottom: 30px;
+      height: 318px;
+      width: 100%;
+      &:hover{
+        -webkit-box-shadow: 0 0 18px 0 $c-fon-a_h_p;
+        box-shadow: 0 0 18px 0 $c-fon-a_h_p;
+        transition: 0.3s;
+      }
+      @include max-screen(768px){
+        max-width: 368px;
+      }
+    }
+    .a{
+      font-size: 16px;
+      color: $c-fon-a_h_p;
+      padding: 20px 48px;
+      background-color: $c-white;
+      display: inline-block;
+      margin-bottom: 116px;
+      font-weight: bold;
+      transition: 0.3s;
+      &:hover{
+        @extend .a-hover;
+        -webkit-box-shadow: 0 8px 18px -13px $c-fon-a_h_p;
+        box-shadow: 0 8px 18px -13px $c-fon-a_h_p;
+        transition: 0.3s;
+      }
+    }
   }
 }

@@ -1,6 +1,9 @@
 @import url(bootstrap.min.css);
 @import url(bootstrap-theme.min.css);
 @import url("https://fonts.googleapis.com/css?family=Asap:400,400i,500,500i,600,600i,700,700i&display=swap");
+@import url(owl.carousel.min.css);
+@import url(owl.theme.default.min.css);
+@import url(../fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css);
 h1, h2, h3, h4, h5, h6, p, a, span {
   font-family: "Asap", sans-serif; }
 
@@ -11,7 +14,7 @@ h1, h2, h3, h4, h5, h6, p, a, span {
   font-size: 16px;
   color: #4d4d4d; }
 
-.a-hover, section a:hover, article .portfolio .a:hover {
+.a-hover, section a:hover, article .portfolio .a:hover, footer .absolutle a:hover, footer .absolutle-2 a:hover {
   text-decoration: none;
   color: #4d4d4d; }
 
@@ -115,5 +118,106 @@ article {
         -webkit-box-shadow: 0 8px 18px -13px #4d4d4d;
         box-shadow: 0 8px 18px -13px #4d4d4d;
         transition: 0.3s; }
+  article .container-flex {
+    display: flex;
+    padding: 80px 74px 38px 120px;
+    border: 1px solid #212121; }
+    article .container-flex .img- {
+      width: 159px;
+      height: 159px; }
+
+footer {
+  position: relative;
+  background-image: url("../img/contact-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  footer h3 {
+    font-size: 46px;
+    color: #f0f0f0;
+    font-weight: bold;
+    letter-spacing: 9px;
+    text-align: center;
+    margin: 145px 0 70px; }
+    footer h3:before {
+      content: "";
+      display: block;
+      height: 4px;
+      width: 60px;
+      margin: 0 auto 19px;
+      background-color: #c1c1c1; }
+    @media screen and (max-width: 375px) {
+      footer h3 {
+        font-size: 42px; } }
+  footer form {
+    color: #4d4d4d;
+    font-size: 16px;
+    font-weight: bold; }
+    footer form input, footer form textarea {
+      width: 100%;
+      padding-left: 10px;
+      margin-bottom: 28px;
+      outline: none; }
+    footer form input {
+      line-height: 58px; }
+    footer form textarea {
+      padding-top: 25px;
+      height: 208px;
+      resize: none; }
+    footer form button {
+      min-width: 122px;
+      line-height: 50px;
+      border: none;
+      outline: none;
+      background-color: #fff;
+      margin: 0 auto 58px;
+      display: block; }
+      footer form button i {
+        padding-left: 7px; }
+  footer p {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 82px;
+    margin: 0; }
+    footer p:before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: #fff; }
+  footer .absolutle {
+    position: absolute;
+    bottom: 29px; }
+  footer .absolutle a {
+    width: 28px;
+    display: inline-block !important;
+    line-height: 28px !important;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4d4d4d;
+    background-color: #fff;
+    text-align: center;
+    margin-right: 9px; }
+    footer .absolutle a:hover {
+      color: #fff;
+      background-color: #0084b4; }
+  footer .absolutle-2 {
+    position: absolute;
+    right: 30px;
+    bottom: 194px; }
+  footer .absolutle-2 a {
+    width: 42px;
+    line-height: 42px !important;
+    display: inline-block !important;
+    color: #4d4d4d;
+    background-color: #fff;
+    text-align: center;
+    font-size: 24px;
+    transition: 0.3s; }
+    footer .absolutle-2 a:hover {
+      -webkit-box-shadow: 0 0 18px 0 #4d4d4d;
+      box-shadow: 0 0 18px 0 #4d4d4d;
+      transition: 0.3s; }
 
 /*# sourceMappingURL=main.css.map */

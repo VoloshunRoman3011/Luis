@@ -9,7 +9,49 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <section id="anchor">
+    <header id="anchor">
+        <nav class="navbar navbar-default">
+            <div class="container header">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/Logo.png" alt="Logo">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Service</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div class="container header">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Luis Oenrique</h1>
+                    <p>User Experience / User Interface Expert</p>
+                    <a class="btn a" href="">KNOW MORE</a>
+                    <a class="btn a" href="">HIRE ME</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="img/men.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-md-5">
@@ -95,8 +137,8 @@
     <article>
         <div class="container">
             <h3>TESTIMONIALS</h3>
-
-            <div class="owl-carousel">
+            <div class="row">
+            <div class="owl-carousel col-md-10">
                     <div class="container-flex">
                         <div class="img-">
                             <img src="img/img-.jpg" alt="">
@@ -107,27 +149,75 @@
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,</p>
                         </div>
                     </div>
+                <div class="container-flex">
+                    <div class="img-">
+                        <img src="img/img-.jpg" alt="">
+                    </div>
+                    <div>
+                        <h5>Limara tusi</h5>
+                        <h6>CEO, RanDOM COMPANY</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,</p>
+                    </div>
+                </div>
+                <div class="container-flex">
+                    <div class="img-">
+                        <img src="img/img-.jpg" alt="">
+                    </div>
+                    <div>
+                        <h5>Limara tusi</h5>
+                        <h6>CEO, RanDOM COMPANY</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,</p>
+                    </div>
+                </div>
             </div>
-
+            </div>
+        </div>
+        <div class="container-fluid article-testimonials">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3">
+                        <img class="first-height" src="img/study1.png" alt="">
+                        <h5>120</h5>
+                        <p>Hands to Work</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img src="img/happiness.png" alt="">
+                        <h5>310</h5>
+                        <p>Happy Client</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img src="img/delivery-complete.png" alt="">
+                        <h5>510</h5>
+                        <p>Finished Projectk</p>
+                    </div>
+                    <div class="col-sm-6 col-md-3">
+                        <img src="img/cup.png" alt="">
+                        <h5>720</h5>
+                        <p>Cups of Coffe</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </article>
     <footer>
         <div class="container">
             <h3>SAY HELLO!</h3>
-            <form action="" method="post">
-                <div class="row">
-                    <div class="col-md-offset-2 col-md-4">
-                        <input type="text" placeholder="Name">
+            <div class="row">
+            <form action="" method="post" class="col-md-offset-2 col-md-8">
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class=" col-md-12">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit">Send<i class="fas fa-share"></i></button>
                     </div>
-                    <div class="col-md-4">
-                        <input type="email" placeholder="Email">
-                    </div>
-                    <div class="col-md-offset-2 col-md-8">
-                        <textarea placeholder="Message"></textarea>
-                    </div>
-                </div>
-                <button type="submit">Send<i class="fas fa-share"></i></button>
             </form>
+            </div>
             <p>2017. All Right Reserved</p>
             <div class="absolutle">
                 <a class="fab fa-facebook-f" href=""></a>
@@ -142,6 +232,9 @@
             </div>
         </div>
     </footer>
+
+
+
 
 
 

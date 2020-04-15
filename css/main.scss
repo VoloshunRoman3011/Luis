@@ -16,6 +16,7 @@ $c-bg: #f6f6f6;
 $c-fon-h4: #f0f0f0;
 $c-fon-h4_b: #c1c1c1;
 $c-fon-h5: #373737;
+$c-fon-h6: #454545;
 $c-black: #212121;
 $c-white: #fff;
 $c-fon-p_p: #7a7a7a;
@@ -46,10 +47,103 @@ h1, h2, h3, h4, h5, h6, p, a, span{
   text-decoration: none;
   color: $c-fon-a_h_p;
 }
+.h5{
+  font-size: 30px;
+  color: $c-fon-h5;
+  font-weight: bold;
+  margin: 0;
+}
 //extend
+
+header{
+  background-image: url("../img/bg-header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  nav{
+    background-image: none!important;
+    box-shadow: none!important;
+    border: none!important;
+    background-color: inherit!important;
+    li{
+      font-size: 16px;
+      a{
+        text-transform: uppercase!important;
+        color: $c-fon-a_h_p!important;
+        &:after{
+          content: "";
+          display: block;
+          height: 2px;
+          margin-top: 8px;
+          background-color: $c-bor-a;
+          width: 0;
+        }
+        &:hover{
+          text-transform: capitalize!important;
+          &:after{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  .header{
+    @include max-screen(992px){
+      text-align: center;
+    }
+  }
+  h1{
+    margin-top: 182px;
+    font-size: 90px;
+    color: $c-fon-a_h_p;
+    @include max-screen(1024px){
+      margin-top: 100px;
+    }
+    @include max-screen(460px){
+      font-size: 55px;
+    }
+  }
+  p{
+    font-size: 22px;
+    color: $c-fon-p;
+    line-height: 22px;
+    margin-bottom: 28px;
+  }
+  .a{
+    border-radius: 0;
+    font-size: 16px;
+    color: $c-fon-a_h_p;
+    font-weight: bold;
+    line-height: 48px;
+    display: inline-block;
+    padding: 0 47px;
+    margin-right: 20px;
+    border: 1px solid $c-fon-a_h_p;
+    transition: 0.3s;
+    margin-bottom: 10px;
+    @include max-screen(414px){
+      margin: 0 0 10px;
+    }
+    &:hover{
+      @extend .a-hover;
+      border: 1px solid #fff;
+      background-color: #fff;
+      -webkit-box-shadow: 0 8px 18px -13px $c-fon-a_h_p;
+      box-shadow: 0 8px 18px -13px $c-fon-a_h_p;
+      transition: 0.3s;
+    }
+  }
+  img{
+    width: 100%;
+  }
+}
+
 
 section{
   @extend .pad;
+  @include max-screen(768px){
+    padding: 80px 0 0;
+  }
   h2{
     font-size: 46px;
     color: $c-fon-h2;
@@ -96,9 +190,14 @@ section{
     width: 100%;
   }
 }
+
+
 article{
   padding: 100px 0 24px;
-  &:nth-child(2n){
+  @include max-screen(768px){
+    padding: 80px 0 0;
+  }
+  &:nth-child(2n+1){
     background-color: $c-bg;
   }
   h3{
@@ -116,8 +215,11 @@ article{
       margin: 0 auto 19px;
       background-color: $c-fon-h3_b;
     }
-    @include max-screen(375px){
+    @include max-screen(414px){
       font-size: 42px;
+    }
+    @include max-screen(375px){
+      font-size: 25px;
     }
   }
   .services{
@@ -178,12 +280,93 @@ article{
   }
   .container-flex{
     display: flex;
-    padding: 80px 74px 38px 120px;
+    padding: 80px 80px 38px 120px;
     border: 1px solid $c-black;
+    margin: 0 10px;
+    @include max-screen(992px){
+      flex-direction: column;
+      align-items: center;
+    }
+    @include max-screen(768px){
+      padding: 50px 15px 50px;
+    }
       .img-{
-        width: 159px;
-        height: 159px;
+        margin-right: 30px;
+        @include max-screen(992px){
+          margin: 0 0 15px;
+        }
       }
+    h5,h6{
+      @include max-screen(992px){
+        text-align: center;
+      }
+    }
+    h5{
+      @extend .h5;
+    }
+    h6{
+      color: $c-fon-h6;
+      font-size: 12px;
+      margin-bottom: 20px;
+    }
+    p{
+      font-size: 16px;
+      color: $c-fon-p;
+      line-height: 32px;
+      text-transform: uppercase;
+      @include max-screen(992px){
+        text-align: justify;
+      }
+    }
+  }
+  .owl-carousel .owl-item img{
+    width: inherit;
+  }
+  .owl-carousel .owl-nav{
+   display: none;
+  }
+  .owl-carousel .owl-dots{
+    position: absolute;
+    left: 50%;
+    margin-left: -30px;
+    bottom: 15px;
+  }
+  .owl-carousel button.owl-dot{
+    width: 12px;
+    height: 12px;
+    border: 1px $c-black solid;
+    margin: 0 4px;
+    outline: none;
+  }
+  .owl-carousel button.owl-dot.active{
+    background-color: $c-black;
+  }
+
+  .article-testimonials{
+    margin: 120px 0 130px;
+    background-color: $c-bg;
+    padding: 52px 0 68px;
+    @include max-screen(768px){
+      margin: 80px 0 0;
+    }
+    h5{
+      @extend .h5;
+    }
+    .first-height{
+      height: 98px;
+      margin-top: 0;
+    }
+    img{
+      height: 74px;
+      margin-top: 24px;
+      margin-bottom: 32px;
+    }
+    p{
+      font-size: 22px;
+      text-transform: uppercase;
+      color: $c-fon-h5;
+      margin-top: 15px;
+    }
   }
 }
 footer{
@@ -240,6 +423,9 @@ footer{
       i{
         padding-left: 7px;
       }
+      @include max-screen(768px){
+        margin: 0 auto 88px;
+      }
     }
   }
   p{
@@ -259,42 +445,54 @@ footer{
   .absolutle{
     position: absolute;
     bottom: 29px;
-  }
-  .absolutle a{
-    width: 28px;
-    display: inline-block!important;
-    line-height: 28px!important;
-    font-size: 16px;
-    font-weight: bold;
-    color: $c-fon-a_h_p;
-    background-color: #fff;
-    text-align: center;
-    margin-right: 9px;
-    &:hover{
-      @extend .a-hover;
-      color: #fff;
-      background-color: $c-bg-hov;
+    @include max-screen(768px){
+      //max-width: 207px;
+      left: 50%;
+      margin-left: -116px;
+      bottom: 95px;
+    }
+    a{
+      width: 28px;
+      display: inline-block!important;
+      line-height: 28px!important;
+      font-size: 16px;
+      font-weight: bold;
+      color: $c-fon-a_h_p;
+      background-color: #fff;
+      text-align: center;
+      margin-right: 9px;
+      &:last-of-type{
+        margin-right: 0;
+      }
+      &:hover{
+        @extend .a-hover;
+        color: #fff;
+        background-color: $c-bg-hov;
+      }
     }
   }
   .absolutle-2{
     position: absolute;
     right: 30px;
     bottom: 194px;
-  }
-  .absolutle-2 a{
-    width: 42px;
-    line-height: 42px!important;
-    display: inline-block!important;
-    color: $c-fon-a_h_p;
-    background-color: #fff;
-    text-align: center;
-    font-size: 24px;
-    transition: 0.3s;
-    &:hover{
-      @extend .a-hover;
-      -webkit-box-shadow: 0 0 18px 0 $c-fon-a_h_p;
-      box-shadow: 0 0 18px 0 $c-fon-a_h_p;
+    @include max-screen(970px){
+      display: none;
+    }
+    a{
+      width: 42px;
+      line-height: 42px!important;
+      display: inline-block!important;
+      color: $c-fon-a_h_p;
+      background-color: #fff;
+      text-align: center;
+      font-size: 24px;
       transition: 0.3s;
+      &:hover{
+        @extend .a-hover;
+        -webkit-box-shadow: 0 0 18px 0 $c-fon-a_h_p;
+        box-shadow: 0 0 18px 0 $c-fon-a_h_p;
+        transition: 0.3s;
+      }
     }
   }
 }

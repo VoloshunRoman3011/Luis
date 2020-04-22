@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6604cb74-e686-4eeb-9b66-88380009809a" name="Default Changelist" comment="The end 4 commit">
+    <list default="true" id="6604cb74-e686-4eeb-9b66-88380009809a" name="Default Changelist" comment="The end 5 commit">
       <change beforePath="$PROJECT_DIR$/.idea/Luis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Luis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -65,7 +65,7 @@
       <workItem from="1587308326829" duration="2209000" />
       <workItem from="1587462458841" duration="1323000" />
       <workItem from="1587485073000" duration="610000" />
-      <workItem from="1587558339499" duration="148000" />
+      <workItem from="1587558339499" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="The end">
       <created>1586958254657</created>
@@ -81,16 +81,35 @@
       <option name="project" value="LOCAL" />
       <updated>1587022339665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="The end 4 commit">
+      <created>1587558681388</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587558681388</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The end" />
     <MESSAGE value="The end 4 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="The end 4 commit" />
+    <MESSAGE value="The end 5 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="The end 5 commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="381" y="12" key="CommitChangelistDialog2" timestamp="1587022321772">
@@ -109,10 +128,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1587558488515" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1587022366556">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1587558686475">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587022366556" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1587558686475" />
     <state x="354" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1587485080790">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -19,8 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6604cb74-e686-4eeb-9b66-88380009809a" name="Default Changelist" comment="The end 6 commit">
+    <list default="true" id="6604cb74-e686-4eeb-9b66-88380009809a" name="Default Changelist" comment="The end 8 commit">
+      <change beforePath="$PROJECT_DIR$/.idea/Luis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Luis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +47,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aLPcGw4j0PM96o8HAfZMr7m4C9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -104,6 +109,7 @@
       <workItem from="1591613225571" duration="27000" />
       <workItem from="1591613283042" duration="472000" />
       <workItem from="1591613886960" duration="5579000" />
+      <workItem from="1593532487034" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="The end">
       <created>1586958254657</created>
@@ -147,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589983107772</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="The end 7 commit">
+      <created>1593532627859</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593532627860</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +183,9 @@
     <MESSAGE value="The end 4 commit" />
     <MESSAGE value="The end 5 commit" />
     <MESSAGE value="The end 6 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="The end 6 commit" />
+    <MESSAGE value="The end 7 commit" />
+    <MESSAGE value="The end 8 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="The end 8 commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="654" y="251" key="#File_Watchers" timestamp="1587559267251">
@@ -197,10 +212,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1587986565704" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1589983114736">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1593532656154">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1589983114736" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1593532656154" />
     <state x="354" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1587485080790">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -20,11 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6604cb74-e686-4eeb-9b66-88380009809a" name="Default Changelist" comment="The end 8 commit">
-      <change beforePath="$PROJECT_DIR$/.idea/Luis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Luis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vagrant.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/520fb589e734a42540eda05289f82ac1c8afd5f9/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/520fb589e734a42540eda05289f82ac1c8afd5f9/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Ruby27-x64/bin/scss.bat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -66,8 +70,9 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -109,7 +114,13 @@
       <workItem from="1591613225571" duration="27000" />
       <workItem from="1591613283042" duration="472000" />
       <workItem from="1591613886960" duration="5579000" />
-      <workItem from="1593532487034" duration="624000" />
+      <workItem from="1593532487034" duration="8532000" />
+      <workItem from="1594571189363" duration="28000" />
+      <workItem from="1594962848203" duration="1783000" />
+      <workItem from="1594967924853" duration="999000" />
+      <workItem from="1596621107111" duration="1395000" />
+      <workItem from="1596629162266" duration="76000" />
+      <workItem from="1597763007323" duration="504000" />
     </task>
     <task id="LOCAL-00001" summary="The end">
       <created>1586958254657</created>
@@ -160,11 +171,18 @@
       <option name="project" value="LOCAL" />
       <updated>1593532627860</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="The end 8 commit">
+      <created>1593533137655</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593533137655</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -188,37 +206,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="The end 8 commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="654" y="251" key="#File_Watchers" timestamp="1587559267251">
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1596629236845">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="654" y="251" key="#File_Watchers/0.0.1536.834@0.0.1536.834" timestamp="1587559267251" />
-    <state x="995" y="293" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587982069723">
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1596629236845" />
+    <state x="277" y="62" key="SettingsEditor" timestamp="1597763178961">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="995" y="293" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1587982069723" />
-    <state x="381" y="12" key="CommitChangelistDialog2" timestamp="1587022321772">
+    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1597763178961" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1597763475527">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="381" y="12" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1587022321772" />
-    <state x="405" y="196" key="EditFileWatcherDialog" timestamp="1587986555737">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="405" y="196" key="EditFileWatcherDialog/0.0.1536.834@0.0.1536.834" timestamp="1587986555737" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1587986552849">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1587986552849" />
-    <state x="277" y="62" key="SettingsEditor" timestamp="1587986565704">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1587986565704" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1593532656154">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1593532656154" />
-    <state x="354" y="362" key="com.intellij.ide.util.TipDialog" timestamp="1587485080790">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="354" y="362" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1587485080790" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1597763475527" />
   </component>
 </project>

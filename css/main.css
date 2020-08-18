@@ -28,7 +28,8 @@ header {
   background-image: url("../img/bg-header.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  height: 100vh; }
   header nav {
     background-image: none !important;
     box-shadow: none !important;
@@ -37,21 +38,21 @@ header {
     header nav .navbar-toggle {
       margin-bottom: 0;
       margin-top: 12px; }
-    header nav li {
-      font-size: 16px; }
-      header nav li a {
-        text-transform: uppercase !important;
-        color: #4d4d4d !important; }
-        header nav li a:after {
-          content: "";
-          display: block;
-          height: 2px;
-          margin-top: 8px;
-          background-color: #878787;
-          width: 0; }
-        header nav li a:hover {
-          text-transform: capitalize !important; }
-          header nav li a:hover:after {
+    header nav ul {
+      margin-top: 20px !important; }
+      header nav ul li {
+        font-size: 16px; }
+        header nav ul li a {
+          text-transform: uppercase !important;
+          color: #4d4d4d !important; }
+          header nav ul li a:after {
+            content: "";
+            display: block;
+            height: 2px;
+            margin-top: 8px;
+            background-color: #878787;
+            width: 0; }
+          header nav ul li a:hover:after {
             width: 100%; }
   @media screen and (max-width: 992px) {
     header .header {
@@ -360,12 +361,16 @@ footer {
         color: #fff;
         background-color: #0084b4; }
   footer .absolutle-2 {
-    position: absolute;
+    position: fixed;
     right: 30px;
-    bottom: 194px; }
+    bottom: 150px;
+    border: 1px solid #909090;
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.75); }
     @media screen and (max-width: 970px) {
       footer .absolutle-2 {
-        display: none; } }
+        display: none !important; } }
     footer .absolutle-2 a {
       width: 42px;
       line-height: 42px !important;
@@ -379,5 +384,12 @@ footer {
         -webkit-box-shadow: 0 0 18px 0 #4d4d4d;
         box-shadow: 0 0 18px 0 #4d4d4d;
         transition: 0.3s; }
+
+[data-aos="rotate-vert-center"] {
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0); }
+  [data-aos="rotate-vert-center"].aos-animate {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg); }
 
 /*# sourceMappingURL=main.css.map */

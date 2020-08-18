@@ -60,6 +60,7 @@ header{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
   nav{
     .navbar-toggle{
       margin-bottom: 0;
@@ -69,23 +70,25 @@ header{
     box-shadow: none!important;
     border: none!important;
     background-color: inherit!important;
-    li{
-      font-size: 16px;
-      a{
-        text-transform: uppercase!important;
-        color: $c-fon-a_h_p!important;
-        &:after{
-          content: "";
-          display: block;
-          height: 2px;
-          margin-top: 8px;
-          background-color: $c-bor-a;
-          width: 0;
-        }
-        &:hover{
-          text-transform: capitalize!important;
+    ul{
+      margin-top: 20px!important;
+      li{
+        font-size: 16px;
+        a{
+          text-transform: uppercase!important;
+          color: $c-fon-a_h_p!important;
           &:after{
-            width: 100%;
+            content: "";
+            display: block;
+            height: 2px;
+            margin-top: 8px;
+            background-color: $c-bor-a;
+            width: 0;
+          }
+          &:hover{
+            &:after{
+              width: 100%;
+            }
           }
         }
       }
@@ -476,11 +479,15 @@ footer{
     }
   }
   .absolutle-2{
-    position: absolute;
+    position: fixed;
     right: 30px;
-    bottom: 194px;
+    bottom: 150px;
+    border: 1px solid $c-fon-p;
+    -webkit-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);
+    box-shadow: 4px 4px 4px 0px rgba(0,0,0,0.75);
     @include max-screen(970px){
-      display: none;
+      display: none!important;
     }
     a{
       width: 42px;
@@ -500,3 +507,14 @@ footer{
     }
   }
 }
+//Добавленные анимации
+[data-aos="rotate-vert-center"]{
+  -webkit-transform: rotateY(0);
+  transform: rotateY(0);
+
+  &.aos-animate{
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
+}
+//Добавленные анимации
